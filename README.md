@@ -18,3 +18,5 @@ This portfolio is a compilation of notebooks relating to all things data science
 ### Titanic: Machine Learning from Disaster
 
 Introductory [Kaggle](https://www.kaggle.com/c/titanic) competition on predicting whether passengers on the Titanic based on a set of features. A binary classification problem.
+
+I was already familiar with machine learning and did minimal data exploration. Also, I did not try and optimise the model. But I did test a few models to see which was best with minimal feature engineering...
