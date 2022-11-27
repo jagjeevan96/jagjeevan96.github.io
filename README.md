@@ -2,11 +2,9 @@
 
 # Portfolio by Jagjeevan Bhamra
 
-PhD Student @ Imperial College London
+PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bhamra19)
 
 [LinkedIn](https://www.linkedin.com/in/jagjeevan/)
-
-[Imperial Page](https://www.imperial.ac.uk/people/j.bhamra19)
 
 [Medium](https://medium.com/@j.bhamra96)
 
