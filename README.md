@@ -52,7 +52,7 @@ I was already familiar with machine learning and did minimal data exploration. A
     2. One Vs One Classifier
     3. Random Forest Classifier
     4. AdaBoost Classifier with a Decision Tree Classifier as the base
-    5. Gradient Boosting though a XGBoost Classifier
+    5. Gradient Boosting through a XGBoost Classifier
 - Models were evaluated through their `roc_auc_score` and `cross_val_score`
 - Dimensionality reduction and compression with `PCA`
 
