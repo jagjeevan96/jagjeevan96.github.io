@@ -24,6 +24,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 1. Linear Model from Scratch
 
     [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/linear_from_scratch.ipynb)
+    
 - A simple linear model built from scratch using matrix multiplication and gradient descent on an implemented loss function as the absolute value of the difference between the prediction and the dependent variable
 - Accuracy comparissons are then made with a sigmoid activation function, which generally improves the loss
 - Note: a random seed is not set, and so accuracy/loss metrics are always going to be the same. This was done purposely to see how the accuracy/loss changes with different random states (i.e. different runs of the model)
@@ -32,12 +33,14 @@ I was already familiar with machine learning and did minimal data exploration. A
 2. Deep Learning using fastai
 
     [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/fastai_tabular.ipynb)
+    
 - [fastai](https://github.com/fastai/fastai) is a deep learning library which provides practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains
 - fastai allows for more time for building and testing the model since it automates several data processing capabilities
 
 3. Quick XGBoost Model as a baseline
 
     [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/XGBoost.ipynb)
+    
 - At the time of running this model, the previous two models performed better
 - Minimal feature engineering
 
