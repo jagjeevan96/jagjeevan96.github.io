@@ -10,10 +10,25 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 
 This portfolio is a compilation of notebooks relating to all things data science, machine learning, and deep learning. Each project is subdived into a separate category.
 
-### Publication(s)
+## Publication(s)
 [Interfacial Bonding Controls Friction in Diamond–Rock Contacts](https://pubs.acs.org/doi/10.1021/acs.jpcc.1c02857)
 
-### Titanic: Machine Learning from Disaster
+## Deep dive into MNIST
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/mnist.ipynb)
+- Highest classification accuracy at the time of running ~95%
+- Accuracy could have been improved by:
+    - Training the entire data set (50% was trained to save on computational time)
+    - Optimise hyperparameters with `GridSearchCV`
+- Models included:
+    1. Simple Binary Classifier
+    2. One Vs One Classifier
+    3. Random Forest Classifier
+    4. AdaBoost Classifier with a Decision Tree Classifier as the base
+    5. Gradient Boosting through a XGBoost Classifier
+- Models were evaluated through their `roc_auc_score` and `cross_val_score`
+- Dimensionality reduction and compression with `PCA`
+
+## Titanic: Machine Learning from Disaster
 
 A binary classification problem.
 
@@ -44,22 +59,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 - At the time of running this model, the previous two models performed better
 - Minimal feature engineering
 
-### Deep dive into MNIST
-[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/mnist.ipynb)
-- Highest classification accuracy at the time of running ~95%
-- Accuracy could have been improved by:
-    - Training the entire data set (50% was trained to save on computational time)
-    - Optimise hyperparameters with `GridSearchCV`
-- Models included:
-    1. Simple Binary Classifier
-    2. One Vs One Classifier
-    3. Random Forest Classifier
-    4. AdaBoost Classifier with a Decision Tree Classifier as the base
-    5. Gradient Boosting through a XGBoost Classifier
-- Models were evaluated through their `roc_auc_score` and `cross_val_score`
-- Dimensionality reduction and compression with `PCA`
-
-### Computer Vision with fastai
+## Computer Vision with fastai
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/image-classifier.ipynb)
 - Built an image classify to classify if an image was either a cucumber or zucchini
 - Model had a large validation loss with the `resnet18` architecture and a somewhat high error rate but was still able to correctly identify a cucumber with very high probability
