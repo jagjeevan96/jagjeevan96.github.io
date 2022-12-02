@@ -52,7 +52,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 - [fastai](https://github.com/fastai/fastai) is a deep learning library which provides practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains
 - fastai allows for more time for building and testing the model since it automates several data processing capabilities
 
-3. Quick XGBoost Model as a baseline
+3. Quick XGBoost Model as a Baseline
 
     [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/XGBoost.ipynb)
     
