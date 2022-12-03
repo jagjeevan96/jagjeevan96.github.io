@@ -64,3 +64,8 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Built an image classify to classify if an image was either a cucumber or zucchini
 - Model had a large validation loss with the `resnet18` architecture and a somewhat high error rate but was still able to correctly identify a cucumber with very high probability
 - With the `resnet152` architecture, the training loss and error rate were lower than with `resnet18`, however, the model was severely overfitting with 10 epochs as the validation loss began to increase with training
+
+## Text Summarisation with NLP
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/nlp-text-summarisation.ipynb)
+- A notebook to demonstrate implementation of a text summarisation algorithm (TextRank)
+- Compared implementation with other algorithms from the `sumy` library
