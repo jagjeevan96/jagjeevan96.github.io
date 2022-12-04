@@ -69,3 +69,10 @@ I was already familiar with machine learning and did minimal data exploration. A
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/nlp-text-summarisation.ipynb)
 - A notebook to demonstrate implementation of a text summarisation algorithm (TextRank)
 - Compared implementation with other algorithms from the `sumy` library
+
+## Image Classification with Keras
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/fashion-mnist.ipynb)
+- Explored *Fashion MNIST*
+- Employed Sequential API (TensorFlow/Keras)
+- Used `keras_tuner` to fine tune NN hyperperameters
+- Achieved over 90% training accuracy and 88% test accuracy but high validation loss, which indicates the model is overfitting
