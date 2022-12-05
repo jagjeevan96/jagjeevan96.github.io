@@ -2,6 +2,8 @@
 
 # Portfolio by Jagjeevan Bhamra
 
+**Currently formatting and organising projects for upload.** *More to come.*
+
 PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bhamra19)
 
 [LinkedIn](https://www.linkedin.com/in/jagjeevan/)
