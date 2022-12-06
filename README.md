@@ -38,7 +38,7 @@ Introductory [kaggle](https://www.kaggle.com/c/titanic) competition on predictin
 
 I was already familiar with machine learning and did minimal data exploration. Also, I did not try and optimise the model. But I did test a few models to see which was best with minimal feature engineering...
 
-1. Linear Model from Scratch
+### Linear Model from Scratch
 
     [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/linear_from_scratch.ipynb)
     
@@ -47,14 +47,14 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Note: a random seed is not set, and so accuracy/loss metrics are not always going to be the same. This was done purposely to see how the accuracy/loss changes with different random states (i.e. different runs of the model)
 - This code can be taken further by computing more matrix multiplications (more hidden layers) and creating a deep learning model
 
-2. Deep Learning using fastai
+### Deep Learning using fastai
 
     [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/fastai_tabular.ipynb)
     
 - [fastai](https://github.com/fastai/fastai) is a deep learning library which provides practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains
 - fastai allows for more time for building and testing the model since it automates several data processing capabilities
 
-3. Quick XGBoost Model as a Baseline
+### Quick XGBoost Model as a Baseline
 
     [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/XGBoost.ipynb)
     
