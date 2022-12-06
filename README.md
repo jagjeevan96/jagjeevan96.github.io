@@ -44,7 +44,7 @@ I was already familiar with machine learning and did minimal data exploration. A
     
 - A simple linear model built from scratch using matrix multiplication and gradient descent on an implemented loss function as the absolute value of the difference between the prediction and the dependent variable
 - Accuracy comparissons are then made with a sigmoid activation function, which generally improves the loss
-- Note: a random seed is not set, and so accuracy/loss metrics are always going to be the same. This was done purposely to see how the accuracy/loss changes with different random states (i.e. different runs of the model)
+- Note: a random seed is not set, and so accuracy/loss metrics are not always going to be the same. This was done purposely to see how the accuracy/loss changes with different random states (i.e. different runs of the model)
 - This code can be taken further by computing more matrix multiplications (more hidden layers) and creating a deep learning model
 
 2. Deep Learning using fastai
