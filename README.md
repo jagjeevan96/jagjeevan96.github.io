@@ -40,7 +40,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 
 ### Linear Model from Scratch
 
-    [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/linear_from_scratch.ipynb)
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/linear_from_scratch.ipynb)
     
 - A simple linear model built from scratch using matrix multiplication and gradient descent on an implemented loss function as the absolute value of the difference between the prediction and the dependent variable
 - Accuracy comparissons are then made with a sigmoid activation function, which generally improves the loss
@@ -49,14 +49,14 @@ I was already familiar with machine learning and did minimal data exploration. A
 
 ### Deep Learning using fastai
 
-    [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/fastai_tabular.ipynb)
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/fastai_tabular.ipynb)
     
 - [fastai](https://github.com/fastai/fastai) is a deep learning library which provides practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains
 - fastai allows for more time for building and testing the model since it automates several data processing capabilities
 
 ### Quick XGBoost Model as a Baseline
 
-    [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/XGBoost.ipynb)
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/XGBoost.ipynb)
     
 - At the time of running this model, the previous two models performed better
 - Minimal feature engineering
