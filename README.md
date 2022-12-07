@@ -1,8 +1,6 @@
-### jagjeevan96.github.io
+### Currently formatting and organising projects for upload. *More to come.*
 
 # Portfolio by Jagjeevan Bhamra
-
-**Currently formatting and organising projects for upload.** *More to come.*
 
 PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bhamra19)
 
