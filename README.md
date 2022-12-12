@@ -78,5 +78,5 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Linear models achieve ~83% accuracy, best model achieved ~94% accuracy
 
 ## Visualise Merge Sort
-[Code](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/merge_sort.py)
+[Code](https://github.com/jagjeevan96/merge_sort)
 - Simple Python script that shows a visualisation of merge sort using pygame
