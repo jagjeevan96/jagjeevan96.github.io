@@ -8,7 +8,7 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 
 [Medium](https://medium.com/@j.bhamra96)
 
-This portfolio is a compilation of notebooks relating to all things data science, machine learning, and deep learning. Each project is subdived into a separate category.
+This portfolio is a compilation of notebooks and Python programs subdivided into separate categories.
 
 ## Publication(s)
 [Interfacial Bonding Controls Friction in Diamond–Rock Contacts](https://pubs.acs.org/doi/10.1021/acs.jpcc.1c02857)
@@ -76,3 +76,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Employed Sequential API (TensorFlow/Keras)
 - Fine tuned hyperparameters, implemented early stopping, used variety of activation functions, optimisers etc.
 - Linear models achieve ~83% accuracy, best model achieved ~94% accuracy
+
+## Visualise Merge Sort
+[Code](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/merge_sort.py)
+- Simple Python script that shows a visualisation of merge sort using pygame
