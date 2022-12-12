@@ -13,7 +13,7 @@ This portfolio is a compilation of notebooks and Python programs subdivided into
 ## Publication(s)
 [Interfacial Bonding Controls Friction in Diamond–Rock Contacts](https://pubs.acs.org/doi/10.1021/acs.jpcc.1c02857)
 
-## Deep dive into MNIST
+## MNIST
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/mnist.ipynb)
 - Highest classification accuracy at the time of running ~95%
 - Accuracy could have been improved by:
