@@ -8,25 +8,16 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 
 [Medium](https://medium.com/@j.bhamra96)
 
-This portfolio is a compilation of notebooks and Python programs subdivided into separate categories.
+This portfolio is a compilation of notebooks and Python programs subdivided into separate categories relating to mostly data science.
 
 ## Publication(s)
 [Interfacial Bonding Controls Friction in Diamond–Rock Contacts](https://pubs.acs.org/doi/10.1021/acs.jpcc.1c02857)
 
-## MNIST
-[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/mnist.ipynb)
-- Highest classification accuracy at the time of running ~95%
-- Accuracy could have been improved by:
-    - Training the entire data set (50% was trained to save on computational time)
-    - Optimise hyperparameters with `GridSearchCV`
-- Models included:
-    1. Simple Binary Classifier
-    2. One Vs One Classifier
-    3. Random Forest Classifier
-    4. AdaBoost Classifier with a Decision Tree Classifier as the base
-    5. Gradient Boosting through a XGBoost Classifier
-- Models were evaluated through their `roc_auc_score` and `cross_val_score`
-- Dimensionality reduction and compression with `PCA`
+## Fraud Detection
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/fraud-detection.ipynb)
+- Highest classification was 99% accuracy using `BaseEstimator` to build classifier to classify everything as not fraud (data is highly unbalanced)
+- Showed how `cross_val_score` is a poor metric for this classification task
+- `xgboost` had the best `roc_auc_score` with `1.00` on the training set (validation) and `0.98` on new data (test set)
 
 ## Titanic: Machine Learning from Disaster
 
@@ -64,6 +55,21 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Built an image classify to classify if an image was either a cucumber or zucchini
 - Model had a large validation loss with the `resnet18` architecture and a somewhat high error rate but was still able to correctly identify a cucumber with very high probability
 - With the `resnet152` architecture, the training loss and error rate were lower than with `resnet18`, however, the model was severely overfitting with 10 epochs as the validation loss began to increase with training
+
+## MNIST
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/mnist.ipynb)
+- Highest classification accuracy at the time of running ~95%
+- Accuracy could have been improved by:
+    - Training the entire data set (50% was trained to save on computational time)
+    - Optimise hyperparameters with `GridSearchCV`
+- Models included:
+    1. Simple Binary Classifier
+    2. One Vs One Classifier
+    3. Random Forest Classifier
+    4. AdaBoost Classifier with a Decision Tree Classifier as the base
+    5. Gradient Boosting through a XGBoost Classifier
+- Models were evaluated through their `roc_auc_score` and `cross_val_score`
+- Dimensionality reduction and compression with `PCA`
 
 ## Text Summarisation with NLP
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/nlp-text-summarisation.ipynb)
