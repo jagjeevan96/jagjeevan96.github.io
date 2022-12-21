@@ -76,7 +76,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Explore diffusion models and examined main components
 - Used the Hugging Face [diffusers library](https://github.com/huggingface/diffusers)
 - Some code adapted from the [fast.ai course](https://www.fast.ai)
-- *Incomplete notebook. Work is in progress*
+- *Incomplete notebook. Work is in progress.*
 
 ## Text Summarisation with NLP
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/nlp-text-summarisation.ipynb)
