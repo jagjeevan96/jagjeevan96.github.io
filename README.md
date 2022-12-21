@@ -32,7 +32,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/linear_from_scratch.ipynb)
     
 - A simple linear model built from scratch using matrix multiplication and gradient descent on an implemented loss function as the absolute value of the difference between the prediction and the dependent variable
-- Accuracy comparissons are then made with a sigmoid activation function, which generally improves the loss
+- Accuracy comparisons are then made with a sigmoid activation function, which generally improves the loss
 - Note: a random seed is not set, and so accuracy/loss metrics are not always going to be the same. This was done purposely to see how the accuracy/loss changes with different random states (i.e. different runs of the model)
 - This code can be taken further by computing more matrix multiplications (more hidden layers) and creating a deep learning model
 
@@ -52,7 +52,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 
 ## Computer Vision with fastai
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/image-classifier.ipynb)
-- Built an image classify to classify if an image was either a cucumber or zucchini
+- Built an image classifier to classify if an image was either a cucumber or zucchini
 - Model had a large validation loss with the `resnet18` architecture and a somewhat high error rate but was still able to correctly identify a cucumber with very high probability
 - With the `resnet152` architecture, the training loss and error rate were lower than with `resnet18`, however, the model was severely overfitting with 10 epochs as the validation loss began to increase with training
 
@@ -67,9 +67,16 @@ I was already familiar with machine learning and did minimal data exploration. A
     2. One Vs One Classifier
     3. Random Forest Classifier
     4. AdaBoost Classifier with a Decision Tree Classifier as the base
-    5. Gradient Boosting through a XGBoost Classifier
+    5. Gradient Boosting through an XGBoost Classifier
 - Models were evaluated through their `roc_auc_score` and `cross_val_score`
 - Dimensionality reduction and compression with `PCA`
+
+## Stable Diffusion with Diffusers
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/stable-diffusion.ipynb)
+- Explore diffusion models and examined main components
+- Used the Hugging Face [diffusers library](https://github.com/huggingface/diffusers)
+- Some code adapted from the [fast.ai course](https://www.fast.ai)
+- *Incomplete notebook. Work is in progress*
 
 ## Text Summarisation with NLP
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/nlp-text-summarisation.ipynb)
@@ -80,7 +87,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/fashion-mnist.ipynb)
 - Explored *Fashion MNIST*
 - Employed Sequential API (TensorFlow/Keras)
-- Fine tuned hyperparameters, implemented early stopping, used variety of activation functions, optimisers etc.
+- Fine-tuned hyperparameters, implemented early stopping, used variety of activation functions, optimisers etc.
 - Linear models achieve ~83% accuracy, best model achieved ~94% accuracy
 
 ## Visualise Merge Sort
