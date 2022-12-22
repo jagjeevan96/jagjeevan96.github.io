@@ -10,24 +10,24 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 
 This portfolio is a compilation of notebooks and Python programs subdivided into separate categories relating to mostly data science.
 
-## Publication(s)
-[Interfacial Bonding Controls Friction in Diamond–Rock Contacts](https://pubs.acs.org/doi/10.1021/acs.jpcc.1c02857)
-
 ## Fraud Detection
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/fraud-detection.ipynb)
 - Highest classification was 99% accuracy using `BaseEstimator` to build classifier to classify everything as not fraud (data is highly unbalanced)
 - Showed how `cross_val_score` is a poor metric for this classification task
 - `xgboost` had the best `roc_auc_score` with `1.00` on the training set (validation) and `0.98` on new data (test set)
 
-## Titanic: Machine Learning from Disaster
+## Stable Diffusion with Diffusers
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/stable-diffusion.ipynb)
+- Explore diffusion models and examined main components
+- Used the Hugging Face [diffusers library](https://github.com/huggingface/diffusers)
+- Some code adapted from the [fast.ai course](https://www.fast.ai)
+- *Incomplete notebook. Work is in progress.*
 
-A binary classification problem.
+## Comparing Three Unique Classification Algorithms
 
-Introductory [kaggle](https://www.kaggle.com/c/titanic) competition on predicting whether passengers on the Titanic survived based on a set of features.
+NOTE: Minimal feature engineering and models were not optimised for performance.
 
-I was already familiar with machine learning and did minimal data exploration. Also, I did not try and optimise the model. But I did test a few models to see which was best with minimal feature engineering...
-
-### Linear Model from Scratch
+**Linear Model from Scratch**
 
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/linear_from_scratch.ipynb)
     
@@ -36,14 +36,14 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Note: a random seed is not set, and so accuracy/loss metrics are not always going to be the same. This was done purposely to see how the accuracy/loss changes with different random states (i.e. different runs of the model)
 - This code can be taken further by computing more matrix multiplications (more hidden layers) and creating a deep learning model
 
-### Deep Learning using fastai
+**Deep Learning using fastai**
 
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/fastai_tabular.ipynb)
     
 - [fastai](https://github.com/fastai/fastai) is a deep learning library which provides practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains
 - fastai allows for more time for building and testing the model since it automates several data processing capabilities
 
-### Quick XGBoost Model as a Baseline
+**Quick XGBoost Model as a Baseline**
 
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/titanic/XGBoost.ipynb)
     
@@ -56,7 +56,7 @@ I was already familiar with machine learning and did minimal data exploration. A
 - Model had a large validation loss with the `resnet18` architecture and a somewhat high error rate but was still able to correctly identify a cucumber with very high probability
 - With the `resnet152` architecture, the training loss and error rate were lower than with `resnet18`, however, the model was severely overfitting with 10 epochs as the validation loss began to increase with training
 
-## MNIST
+## Comparing Metrics and Classifiers on MNIST
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/mnist.ipynb)
 - Highest classification accuracy at the time of running ~95%
 - Accuracy could have been improved by:
@@ -70,13 +70,6 @@ I was already familiar with machine learning and did minimal data exploration. A
     5. Gradient Boosting through an XGBoost Classifier
 - Models were evaluated through their `roc_auc_score` and `cross_val_score`
 - Dimensionality reduction and compression with `PCA`
-
-## Stable Diffusion with Diffusers
-[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/stable-diffusion.ipynb)
-- Explore diffusion models and examined main components
-- Used the Hugging Face [diffusers library](https://github.com/huggingface/diffusers)
-- Some code adapted from the [fast.ai course](https://www.fast.ai)
-- *Incomplete notebook. Work is in progress.*
 
 ## Text Summarisation with NLP
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/nlp-text-summarisation.ipynb)
