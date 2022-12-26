@@ -10,6 +10,13 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 
 This portfolio is a compilation of notebooks and Python programs subdivided into separate categories relating to mostly data science.
 
+## Deep Learning from the Foundations
+**Implement Training Loop from Scratch**
+
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/training-loop.ipynb)
+- Implemented matrix multiplication, forward pass, backward propogation, activation/loss functions, and training loop from scratch
+- Comparisons are made with the PyTorch implementation
+
 ## Fraud Detection
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/fraud-detection.ipynb)
 - Highest classification was 99% accuracy using `BaseEstimator` to build classifier to classify everything as not fraud (data is highly unbalanced)
