@@ -10,7 +10,7 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 
 This portfolio is a compilation of notebooks and Python programs subdivided into separate categories relating to mostly data science.
 
-## Deep Learning from the Foundations, [fast.ai](https://www.fast.ai)
+## Deep Learning from the Foundations
 
 **Implemented Training Loop from Scratch**
 
