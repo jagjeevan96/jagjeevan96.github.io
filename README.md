@@ -18,12 +18,6 @@ This portfolio is a compilation of notebooks and Python programs subdivided into
 - Implemented matrix multiplication, forward pass, backward propogation, activation/loss functions, and training loop from scratch
 - Comparisons are made with the PyTorch implementation
 
-## Fraud Detection
-[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/fraud-detection.ipynb)
-- Highest classification was 99% accuracy using `BaseEstimator` to build classifier to classify everything as not fraud (data is highly unbalanced)
-- Showed how `cross_val_score` is a poor metric for this classification task
-- `xgboost` had the best `roc_auc_score` with `1.00` on the training set (validation) and `0.98` on new data (test set)
-
 ## Stable Diffusion with Diffusers
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/stable-diffusion.ipynb)
 - Explore diffusion models and examined main components
@@ -57,6 +51,12 @@ NOTE: Minimal feature engineering and models were not optimised for performance.
     
 - At the time of running this model, the previous two models performed better
 - Minimal feature engineering
+
+## Fraud Detection
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/fraud-detection.ipynb)
+- Highest classification was 99% accuracy using `BaseEstimator` to build classifier to classify everything as not fraud (data is highly unbalanced)
+- Showed how `cross_val_score` is a poor metric for this classification task
+- `xgboost` had the best `roc_auc_score` with `1.00` on the training set (validation) and `0.98` on new data (test set)
 
 ## Computer Vision with fastai
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/image-classifier.ipynb)
