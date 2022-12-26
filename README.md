@@ -10,8 +10,9 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 
 This portfolio is a compilation of notebooks and Python programs subdivided into separate categories relating to mostly data science.
 
-## Deep Learning from the Foundations
-**Implement Training Loop from Scratch**
+## Deep Learning from the Foundations, [fast.ai](https://www.fast.ai)
+
+**Implemented Training Loop from Scratch**
 
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/training-loop.ipynb)
 - Implemented matrix multiplication, forward pass, backward propogation, activation/loss functions, and training loop from scratch
