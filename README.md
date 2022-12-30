@@ -18,6 +18,12 @@ This portfolio is a compilation of notebooks and Python programs subdivided into
 - Implemented matrix multiplication, forward pass, backward propogation, activation/loss functions, and training loop from scratch
 - Comparisons are made with the PyTorch implementation
 
+**1 Epoch Training**
+[Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/1-epoch-training.ipynb)
+- Continuing from above, training with just 1 epoch to achieve maximum accuracy (highest was `0.7809`)
+- When aforementioned model was trained for 10 epochs, accuracy = `0.8769`
+- Limited training - swith to training model on GPU for better efficiency
+
 ## Stable Diffusion with Diffusers
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/stable-diffusion.ipynb)
 - Explore diffusion models and examined main components
