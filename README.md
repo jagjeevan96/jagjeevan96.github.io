@@ -19,6 +19,7 @@ This portfolio is a compilation of notebooks and Python programs subdivided into
 - Comparisons are made with the PyTorch implementation
 
 **1 Epoch Training**
+
 [Notebook](https://github.com/jagjeevan96/jagjeevan96.github.io/blob/main/notebooks/1-epoch-training.ipynb)
 - Continuing from above, training with just 1 epoch to achieve maximum accuracy (highest was `0.7809`)
 - When aforementioned model was trained for 10 epochs, accuracy = `0.8769`
