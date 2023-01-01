@@ -1,14 +1,7 @@
-### Currently formatting and organising projects for upload. *More to come.*
-
 # Portfolio by Jagjeevan Bhamra
+***Portfolio consists of mainly experimenting with and testing different models, neural network architectures, and learning techniques.***
 
-PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bhamra19)
-
-[LinkedIn](https://www.linkedin.com/in/jagjeevan/)
-
-[Medium](https://medium.com/@j.bhamra96)
-
-This portfolio is a compilation of notebooks and Python programs subdivided into separate categories relating to mostly data science.
+PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bhamra19) | [LinkedIn](https://www.linkedin.com/in/jagjeevan/) | [Medium](https://medium.com/@j.bhamra96)
 
 ## Deep Learning from the Foundations
 
