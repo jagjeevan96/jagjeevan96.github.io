@@ -25,7 +25,7 @@ PhD Student @ [Imperial College London](https://www.imperial.ac.uk/people/j.bham
 - Some code adapted from the [fast.ai course](https://www.fast.ai)
 - *Incomplete notebook. Work is in progress.*
 
-## Comparing Three Unique Classification Algorithms
+## Comparing Three Unique Classification Techniques
 
 NOTE: Minimal feature engineering and models were not optimised for performance.
 
