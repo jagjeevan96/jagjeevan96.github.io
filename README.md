@@ -3,7 +3,7 @@
 
 PhD @ [Imperial College London](https://www.imperial.ac.uk/people/j.bhamra19) | [LinkedIn](https://www.linkedin.com/in/jagjeevan/)
 
-Publications: [J. Phys. Chem. C](https://doi.org/10.1021/acs.jpcc.1c02857) (2021), [Applied Surface Science](https://doi.org/10.1016/j.apsusc.2023.158152) (2023), and [Tribology Letters](https://doi.org/10.1007/s11249-023-01818-0) (2024)
+Publications: [***J. Phys. Chem. C***](https://doi.org/10.1021/acs.jpcc.1c02857) (2021), [***Applied Surface Science***](https://doi.org/10.1016/j.apsusc.2023.158152) (2023), and [***Tribology Letters***](https://doi.org/10.1007/s11249-023-01818-0) (2024)
 
 ## Deep Learning from the Foundations
 
